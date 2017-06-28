@@ -2,4 +2,20 @@
 elm-stuff
 # elm-repl generated files
 repl-temp-*
+# npm
 sample_application/node_modules/
+
+
+# webpack
+/node_modules
+/test/js
+/test/browsertest/js
+/test/fixtures/temp-cache-fixture
+/benchmark/js
+/benchmark/fixtures
+/examples/*/js
+/coverage
+.DS_Store
+*.log
+.idea
+.vscode
