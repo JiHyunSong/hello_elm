@@ -52,6 +52,31 @@ npm i ace-css@1 font-awesome@4 -S
 devServer 키에는 Webpack dev 서버에 대한 내용이 있습니다. 이것이 Elm reactor 를 대신합니다.
 entry 키의 ./src/index.js 는 이 어플리케이션의 시작점입니다.
 
+
+# 사용법
+
+### package.json
+
+scripts덕분에 사용할 수 있는 명령어들
+
+```
+npm run api   // API 서버를 돌릴 수 있습니다.
+npm run build // Webpack 빌드를 돌려 dist 에 번들을 내놓습니다.
+npm run watch // Webpack 와쳐 (watcher) 를 실행해 소스 코드 변경시마다 dist 를 만들어 냅니다.
+npm run dev   // Webpack dev 서버를 실행합니다.
+```
+
+foreman으로 API & Frontend 동시실행
+
+```
+nf start
+```
+
+# 설치 명령어
+```
+npm install -g foreman
+```
+
 # ref
 
 만들 것 : https://www.elm-tutorial.org/ko/04-starting/01-planning.html
